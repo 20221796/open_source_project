@@ -9,3 +9,6 @@
 + Google Cloud STT API <https://cloud.google.com/speech-to-text?hl=ko
 + KoNLPy 패키지 <https://konlpy.org/ko/latest/index.html
 + Moviepy 라이브러리 <https://github.com/Zulko/moviepy
+
+---
+<u> **This project is licensed under the terms of the MIT license.** </u>
