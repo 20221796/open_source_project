@@ -4,17 +4,17 @@ dir=$(pwd)
 
 if [ -d $1 ]
 then
-        echo ""
-else    
+	:
+else
         mkdir $1
         cd $1
 	
         for((i=0; i<5; i++))
         do
-                touch $1$i.txt
+                touch file$i.txt
         done
 	
-	tar cvf $1.tar $10.txt $11.txt $12.txt $13.txt $14.txt
+	tar cvf $1.tar file0.txt file1.txt file2.txt file3.txt file4.txt
 	
 	mkdir $1
 	mv $1.tar $1
